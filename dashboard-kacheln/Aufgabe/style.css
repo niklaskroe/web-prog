@@ -38,5 +38,32 @@ header h1 {
     color: rgb(145, 204, 229);
     font-size: 260%;
     margin: 0;
+    margin-left: 1rem;
     margin-bottom: 1rem;
+}
+
+header div {
+    background: #ededed;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#title1 {
+    color: rgb(83, 149, 176);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2em;
+}
+
+a, a:visited {
+    color: rgb(193, 33, 33);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
