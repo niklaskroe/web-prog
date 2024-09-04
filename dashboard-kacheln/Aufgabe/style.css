@@ -28,3 +28,15 @@ html {
 header, main {
     padding: 1rem;
 }
+
+header {
+    background: white;
+    box-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
+}
+
+header h1 {
+    color: rgb(145, 204, 229);
+    font-size: 260%;
+    margin: 0;
+    margin-bottom: 1rem;
+}
