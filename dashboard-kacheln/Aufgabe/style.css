@@ -70,3 +70,20 @@ a, a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+@keyframes a1 {
+    0% {
+        transform: rotate(-4deg);
+    }
+    100% {
+        transform: rotate(4deg);
+    }
+}
+
+.turbo {
+    font-size: 330%;
+    display: inline-block;
+    transform-origin: 50% 50%;
+    animation: a1 0.5s alternate infinite;
+    animation-timing-function: linear;
+}
