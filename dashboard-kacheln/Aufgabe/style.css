@@ -85,8 +85,13 @@ main > section {
 .my-dashboard-tile {
     width: 9em;
     height: 9em;
+    font-size: 120%;
 
     border: 1px solid lightgray;
     background: white;
     box-shadow: 1px 1px 1px rgba(0,0,0, 0.25);
+}
+
+.highlighted {
+    background: #fffceb;
 }
