@@ -96,7 +96,7 @@ main > section {
     background: #fffceb;
 }
 
-.icon {
+.my-dashboard-tile .icon {
     color: lightgray;
-    font-size: 150%;
+    font-size: 300%;
 }
