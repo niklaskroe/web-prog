@@ -91,18 +91,35 @@ main > section {
     background: white;
     box-shadow: 1px 1px 1px rgba(0,0,0, 0.25);
 
+    overflow: hidden;
+    position: relative; /* define relative position for icon & label */
+
     .icon {
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0.5rem;
+
         color: lightgray;
         font-size: 300%;
     }
 
     .label {
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+
         z-index: 4;
+        overflow: hidden;
     }
 
     .amount {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+
         font-size: 200%;
         z-index: 3;
+        overflow: hidden;
     }
 }
 
