@@ -97,11 +97,12 @@ main > section {
     }
 
     .label {
-
+        z-index: 4;
     }
 
     .amount {
         font-size: 200%;
+        z-index: 3;
     }
 }
 
