@@ -71,12 +71,16 @@ a:hover {
     text-decoration: underline;
 }
 
+/* sections as direct children of main*/
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
 .my-dashboard-tile {
     width: 9em;
     height: 9em;
-    display: inline-block;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
 
     border: 1px solid lightgray;
     background: white;
