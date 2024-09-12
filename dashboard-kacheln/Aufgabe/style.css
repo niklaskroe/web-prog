@@ -97,5 +97,6 @@ main > section {
 }
 
 .icon {
-
+    color: lightgray;
+    font-size: 150%;
 }
