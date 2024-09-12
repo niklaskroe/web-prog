@@ -1,0 +1,39 @@
+html {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+
+    background-image: url(jumbotron-hintergrund.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    box-sizing: border-box;
+    height: 100%;
+}
+
+header div {
+    margin-top: 1rem;
+    position: relative;
+    background-color: white;
+}
+
+header div div {
+    position: absolute;
+    left: 0;
+}
+
+nav ul {
+    position: absolute;
+    right: 0;
+
+    margin-left: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
