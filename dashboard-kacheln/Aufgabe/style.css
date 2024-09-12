@@ -33,15 +33,15 @@ header {
 
 header h1 {
     color: rgb(145, 204, 229);
-    font-size: 200%;
+    font-size: 260%;
     margin: 0;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    transition: font-size 2s;
+    transition: font-size 0.4s;
 }
 
 header h1:hover {
-    font-size: 260%;
+    font-size: 280%;
 }
 
 header div {
@@ -69,21 +69,4 @@ a, a:visited {
 
 a:hover {
     text-decoration: underline;
-}
-
-@keyframes a1 {
-    0% {
-        transform: rotate(-4deg);
-    }
-    100% {
-        transform: rotate(4deg);
-    }
-}
-
-.turbo {
-    font-size: 330%;
-    display: inline-block;
-    transform-origin: 50% 50%;
-    animation: a1 0.5s alternate infinite;
-    animation-timing-function: linear;
 }
