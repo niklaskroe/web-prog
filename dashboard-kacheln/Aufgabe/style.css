@@ -75,6 +75,8 @@ a:hover {
     width: 9em;
     height: 9em;
     display: inline-block;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
 
     border: 1px solid lightgray;
     background: white;
