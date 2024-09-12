@@ -77,9 +77,9 @@ main > section {
     flex-wrap: wrap;
     gap: 1em;
 
-    /* main axis alignment */
+    /* main axis alignment
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .my-dashboard-tile {
