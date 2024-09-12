@@ -76,6 +76,10 @@ main > section {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+
+    /* main axis alignment */
+    justify-content: center;
+    align-items: center;
 }
 
 .my-dashboard-tile {
